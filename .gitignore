@@ -1,0 +1,17 @@
+# 凭据 / 会话导出文件 —— 绝对不要提交
+session-*.json
+*session*.json
+*.har
+cookies*.txt
+*.cookie
+
+# 运行/分析产生的临时文件
+_*
+*.log
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
